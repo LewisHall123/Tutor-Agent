@@ -212,3 +212,11 @@ __marimo__/
 data/
 *.csv
 *.txt
+
+# Secrets & API keys
+secrets.py
+*.env
+
+# Editor settings (optional)
+.vscode/
+
