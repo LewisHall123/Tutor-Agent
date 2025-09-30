@@ -1,7 +1,7 @@
 # Tutor-Agent
 LLM powered tutor to help you study and track progress on the material you are studying. 
 
-This is a hobby project in its early stages, it is not yet ready to be used by the public, hence why much of the code is currently incomplete. The reason I am making this is because I am studying machine learning and I want an AI agent that can help me learn. It is written in Python, using LangChain, and the OpenAI API.
+The reason I am making this is because I am studying machine learning and I want an AI agent that can help me learn. It is written in Python, using LangChain, and the OpenAI API.
 
 Core functionality of the agent: 
 - Test the users knowlwdge based off their own set of notes by asking them questions on the contents of these notes.
