@@ -5,9 +5,7 @@ The reason I am making this is because I am studying machine learning and I want
 
 Core functionality of the agent: 
 - Test the users knowledge based off their own set of notes by asking them questions on the contents of these notes.
-- Grade their answers on each set of questions it gives them, log the users grade and the date the questions were answered.
-- Display what grades the user has been getting on each topic.
-- Schedule what topics I should learn each day so that I study each topic at specific time intervals.
-- Let the user specify which topics are most important so the sytem proritises these topics in the schedule.
-- Let the user specify how much time he wants to spend studying today, the agent then automatically starts the study session.
+- Mark  their answers on each set of questions it gives them. 
+- Update a progress report that shows what topics the student struggles with to help inform the tutor what to test the student on.
+
 
