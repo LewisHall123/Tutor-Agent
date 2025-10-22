@@ -75,25 +75,3 @@ agent3 = create_agent(
     "Fourth task: respond with a very short sentence confirming you have carried out the instructions and nothing else."
 )
 
-
-
-'''
-agent1 = create_tool_calling_agent(llm, tools, prompt1)
-
-agent_executor1 = AgentExecutor(agent=agent1, tools=tools)
-
-tools = [get_date, search_notes]
-
-prompt1 = ChatPromptTemplate.from_messages(
-    [
-        ("system", "You are a teacher. Always use the search_notes tool to find information regarding the students questions,",
-        "your questions to the student, and the students answers. Use the get_date to get todays date"),
-        ("student", "{input}"),
-        ("placeholder", "{agent_scratchpad}"),
-    ]
-)
-'''
-
-# from langchain_core.tools import tool
-# from langchain.agents import AgentExecutor, create_tool_calling_agent
-# from langchain_core.prompts import ChatPromptTemplate
